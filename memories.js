@@ -4,8 +4,8 @@
 
 /* ---------- 📖 Our Story ----------
    Ordre = ordre d'affichage (ordre chronologique).
-   photos : liste d'images dans assets/photos/ (peut être vide [])
-   video  : (optionnel) une vidéo dans assets/video/
+   photos : liste d'images dans  (peut être vide [])
+   video  : (optionnel) une vidéo dans 
 
    👉 POUR AJOUTER UN SOUVENIR : copie ce bloc, colle-le à la bonne
    place dans la liste (n'oublie pas la virgule entre deux blocs) :
@@ -15,7 +15,7 @@
      emoji: "💕",
      title: "Titre du souvenir",
      text: `<p>Ce qui s'est passé…</p>`,
-     photos: ["assets/photos/mon-image.jpg"]
+     photos: ["mon-image.jpg"]
    },
 */
 const MEMORIES = [
@@ -45,28 +45,28 @@ const MEMORIES = [
     text: `
       <p>Kna bjouj 9bala l b7ar blil, f Ramadan. B9ina bjouj, hdrna… <em>we kissed and hugged each other.</em></p>
       <p>Dik sa3a kna mfahmin w frhanin bzaf. 🌊</p>`,
-    photos: ["assets/photos/ramadan-beach.jpg"]
+    photos: ["ramadan-beach.jpg"]
   },
   {
     date: "02/03/2026",
     emoji: "🌧️",
     title: "Rain night",
     text: `<p>Wa7d nhar zwin… khrejna blil w ta7t 3lina chta. B9ina kandhko, kna frhanin bzaaf.</p>`,
-    photos: ["assets/photos/rain-night.jpg"]
+    photos: ["rain-night.jpg"]
   },
   {
     date: "26/03/2026",
     emoji: "🏍️",
     title: "Quad day",
     text: `<p>Activité de quad drnaha ensemble.</p>`,
-    photos: ["assets/photos/quad.jpg"]
+    photos: ["quad.jpg"]
   },
   {
     date: "10/04/2026",
     emoji: "🎯",
     title: "Paintball day",
     text: `<p>Activité drnaha m3a 2 amis dialna. Daz nhar zwin bzaf, dhekna fih… w kont frhana w ana m3ak.</p>`,
-    photos: ["assets/photos/paintball.jpg"]
+    photos: ["paintball.jpg"]
   },
   {
     date: "02/05/2026",
@@ -75,15 +75,15 @@ const MEMORIES = [
     text: `
       <p>Kna f wa7d centre de jeux blil. Dhekna, l3bna, w daz w9t zwin bzaf.</p>
       <p>3jbni dak l moment fach kont kathawl takhd lia chi haja… wakha failed 😅 walakin fre7t. <strong>Kay3jbni nchoufek katdir chi haja 3la 9bli.</strong></p>`,
-    photos: ["assets/photos/game-center.jpg"],
-    video: "assets/video/game-center.mp4"
+    photos: ["game-center.jpg"],
+    video: "game-center.mp4"
   },
   {
     date: "28/08/2026",
     emoji: "📸",
     title: "Photobooth day",
     text: ``,
-    photos: ["assets/photos/photobooth.jpg"]
+    photos: ["photobooth.jpg"]
   },
   {
     date: "17/10/2026",
@@ -98,17 +98,17 @@ const MEMORIES = [
 
 /* ---------- 📸 Us (polaroids) ---------- */
 const PHOTOS = [
-  { src: "assets/photos/quad-selfie.jpg", caption: "Quad day 🏍️" },
-  { src: "assets/photos/paintball-selfie.jpg", caption: "Paintball day 🎯" },
-  { src: "assets/photos/photobooth-day.jpg", caption: "28/08 📸" },
-  { src: "assets/photos/bracelets.jpg", caption: "Our bracelets, mazal 3ndna 🤍" }
+  { src: "quad-selfie.jpg", caption: "Quad day 🏍️" },
+  { src: "paintball-selfie.jpg", caption: "Paintball day 🎯" },
+  { src: "photobooth-day.jpg", caption: "28/08 📸" },
+  { src: "bracelets.jpg", caption: "Our bracelets, mazal 3ndna 🤍" }
 ];
 
 /* ---------- 🥺 What I miss about you ----------
    Les captures de vos appels vidéo */
 const MISS_PHOTOS = [
-  "assets/photos/call-1.jpg",
-  "assets/photos/call-2.jpg",
-  "assets/photos/call-3.jpg",
-  "assets/photos/call-4.jpg"
+  "call-1.jpg",
+  "call-2.jpg",
+  "call-3.jpg",
+  "call-4.jpg"
 ];
